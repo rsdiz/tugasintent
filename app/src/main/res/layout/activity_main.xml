@@ -4,8 +4,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/bg_dasar">
 
-    
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_marginTop="110dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_coklat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="333dp"
+        android:layout_height="450dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/box_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="333dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/box_white"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/iconfinder_faq_6900247"
+            android:contentDescription="@string/penjelasan" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:gravity="center_vertical"
+            android:text="@string/penjelasan"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
