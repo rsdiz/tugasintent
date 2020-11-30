@@ -78,7 +78,7 @@
                 android:weightSum="7">
                 <TextView
                     android:layout_weight="2"
-                    android:text="program Studi"
+                    android:text="Program Studi"
                     android:textSize="20sp">
                 </TextView>
                 <TextView
@@ -127,17 +127,17 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <ImageView
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_gravity="center_vertical"
-            android:layout_marginLeft="30dp"
+            android:layout_marginStart="20dp"
             android:background="@drawable/iconfinder_content_form_application_article_paper_3209381"
             android:contentDescription="@string/penjelasan" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_marginStart="35dp"
+            android:layout_marginStart="45dp"
             android:gravity="center_vertical"
             android:text="@string/DataForm"
             android:textColor="@color/black"
