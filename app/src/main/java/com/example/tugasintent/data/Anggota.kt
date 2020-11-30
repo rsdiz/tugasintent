@@ -4,5 +4,6 @@ data class Anggota(
     val nama: String,
     val nim: String,
     val programstudi: String,
-    val asal: String
+    val asal: String,
+    val image: Int
 )
