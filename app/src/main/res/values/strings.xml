@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">tugasintent</string>
+    <string name="penjelasan">Penjelasan</string>
+    <string name="isi_form">Isi Form</string>
 </resources>
