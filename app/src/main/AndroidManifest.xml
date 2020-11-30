@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Tugasintent.NoActionBar">
-        <activity android:name=".activity_form"
-            android:label=""
+        <activity android:name=".Form"
+            android:label=" "
             android:parentActivityName=".Awal"
             android:theme="@style/Theme.Tugasintent" />
         <activity android:name=".DetailAnggota"
