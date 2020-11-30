@@ -7,4 +7,15 @@
     <string name="text_top">PEMROGRAMAN MOBILE\n INTENT</string>
     <string name="DataForm">Data Form</string>
     <string name="nama">Nama Mahasiswa</string>
+    <string name="isipenjelasan">
+        Dikutip dari website resmi developer android, intent merupakan objek yang menyediakanwaktu
+        proses yang mengikat komponen-komponen terpisah.\n
+        Intent adalah cara untuk memberikan Action pada suatu komponen dalam satu aplikasi yang
+        sama maupun aplikasi lain.\n
+        Intent dibagi menjadi 2, yaitu :\n
+        1. Explicit Intent berfungsi untuk mengaktifkan komponen-komponen dalam satu aplikasi yang
+            sama. Misalnya seperti : Berpindah Activity.\n
+        2. Implicit Intent berfungsi untuk memanggil fungsi activity yang sudah ada di fungsi
+            internal android seperti Dial Number, Open Browser dan lainnya.
+    </string>
 </resources>
