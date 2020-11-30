@@ -41,7 +41,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/linearLayout4"
+        android:id="@+id/buttonPenjelasan"
         android:layout_width="333dp"
         android:layout_height="60dp"
         android:background="@drawable/box_white"
@@ -67,14 +67,14 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/linearLayout3"
+        android:id="@+id/buttonImplementasi"
         android:layout_width="333dp"
         android:layout_height="60dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/box_white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+        app:layout_constraintTop_toBottomOf="@+id/buttonPenjelasan">
 
         <ImageView
             android:layout_width="40dp"
@@ -96,13 +96,14 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/buttonAnggota"
         android:layout_width="333dp"
         android:layout_height="60dp"
         android:background="@drawable/box_white"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+        app:layout_constraintTop_toBottomOf="@+id/buttonImplementasi">
 
         <ImageView
             android:layout_width="40dp"
