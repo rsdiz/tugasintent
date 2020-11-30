@@ -37,10 +37,10 @@ class Form : AppCompatActivity() {
                 Toast.makeText(this, "DATA BELUM LENGKAP", Toast.LENGTH_SHORT).show()
             } else {
                 intent = Intent(this, Dataform::class.java)
-                intent.putExtra("Nama", etNama.text)
-                intent.putExtra("NIM", etNim.text)
-                intent.putExtra("Programstudi", etProdi.text)
-                intent.putExtra("Asal", etAsal.text)
+                intent.putExtra("nama", etNama.text.toString())
+                intent.putExtra("nim", etNim.text.toString())
+                intent.putExtra("programstudi", etProdi.text.toString())
+                intent.putExtra("asal", etAsal.text.toString())
                 startActivity(intent)
             }
         }
