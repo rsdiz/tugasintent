@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_anggotakelompok"
+    android:background="@color/bg_dasar">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_coklat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ListView
+        android:id="@+id/listAnggotaKelompok"
+        android:layout_width="333dp"
+        android:layout_height="450dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/box_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="vertical">
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="333dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/box_white"
+        app:layout_constraintBottom_toTopOf="@+id/listAnggotaKelompok"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/iconfinder_people_group_team_peoples_friend_3643747"
+            android:contentDescription="@string/angkel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:gravity="center_vertical"
+            android:text="@string/angkel"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
