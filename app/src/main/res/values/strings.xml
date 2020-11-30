@@ -2,4 +2,9 @@
     <string name="app_name">tugasintent</string>
     <string name="penjelasan">Penjelasan</string>
     <string name="isi_form">Isi Form</string>
+    <string name="angkel">Anggota Kelompok</string>
+    <string name="implementasi">Implementasi</string>
+    <string name="text_top">PEMROGRAMAN MOBILE\n INTENT</string>
+    <string name="DataForm">Data Form</string>
+    <string name="nama">Nama Mahasiswa</string>
 </resources>

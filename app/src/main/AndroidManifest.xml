@@ -8,12 +8,32 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Tugasintent">
-        <activity android:name=".activity_form"></activity>
-        <activity android:name=".MainActivity">
+        android:theme="@style/Theme.Tugasintent.NoActionBar">
+        <activity android:name=".activity_form"
+            android:label=""
+            android:parentActivityName=".Awal"
+            android:theme="@style/Theme.Tugasintent" />
+        <activity android:name=".DetailAnggota"
+            android:label="Detail Anggota"
+            android:parentActivityName=".AnggotaKelompok"
+            android:theme="@style/Theme.Tugasintent" />
+        <activity
+            android:name=".Dataform"
+            android:label="Dataform"
+            android:parentActivityName=".Form"
+            android:theme="@style/Theme.Tugasintent" />
+        <activity android:name=".AnggotaKelompok"
+            android:label="Anggota Kelompok"
+            android:parentActivityName=".Awal"
+            android:theme="@style/Theme.Tugasintent" />
+        <activity
+            android:name=".Penjelasan"
+            android:label="Penjelasan Intent"
+            android:theme="@style/Theme.Tugasintent"
+            android:parentActivityName=".Awal" />
+        <activity android:name=".Awal">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
